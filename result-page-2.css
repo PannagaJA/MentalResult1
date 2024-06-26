@@ -1,0 +1,215 @@
+.frame-child1 {
+  width: 968px;
+  height: 765px;
+  position: relative;
+  box-shadow: 40px 18px 21.4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-46xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.image-1-icon,
+.on-balance {
+  position: relative;
+  z-index: 2;
+}
+.on-balance {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.image-1-icon {
+  height: 225px;
+  width: 225px;
+  object-fit: cover;
+}
+.image-1-wrapper {
+  width: 469px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frame-container,
+.image-1-wrapper,
+.on-balance-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.on-balance-parent {
+  width: 526px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 31px;
+}
+.frame-container {
+  width: 713px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 1px;
+  box-sizing: border-box;
+}
+.doing-well-but {
+  margin: 0;
+  width: 713px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.frame-div {
+  width: 968px;
+  box-shadow: 40px 18px 21.4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-46xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-xl) 125px var(--padding-34xl);
+  gap: 69px;
+  max-width: 100%;
+  z-index: 1;
+}
+.result-page-2-inner {
+  width: 1332px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.whatsapp-image-2024-06-26-at-12 {
+  position: absolute;
+  top: 448px;
+  left: 130px;
+  width: 1714px;
+  height: 1062px;
+  object-fit: cover;
+}
+.footer,
+.footer-child {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.footer-child {
+  background-color: var(--color-lightcoral);
+  width: 259px;
+  z-index: 1;
+}
+.footer {
+  width: 100%;
+  margin: 0 !important;
+  right: 0;
+}
+.navigation-child {
+  height: 50px;
+  width: 122px;
+  position: relative;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-steelblue);
+  display: none;
+}
+.next2 {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+  z-index: 2;
+}
+.navigation,
+.result-page-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.navigation {
+  border-radius: var(--br-15xl);
+  background-color: var(--color-steelblue);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xl) var(--padding-9xs);
+  z-index: 1;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.result-page-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-13xl) var(--padding-45xl) var(--padding-9xl);
+  box-sizing: border-box;
+  gap: var(--gap-225xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-zen-kaku-gothic-new);
+}
+@media screen and (max-width: 1200px) {
+  .result-page-2 {
+    gap: var(--gap-103xl);
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .on-balance {
+    font-size: var(--font-size-29xl);
+  }
+  .doing-well-but {
+    font-size: var(--font-size-19xl);
+  }
+  .frame-div {
+    gap: 34px;
+    padding-left: 26px;
+    box-sizing: border-box;
+  }
+  .next2 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .on-balance-parent {
+    gap: var(--gap-mini);
+  }
+  .frame-div {
+    padding-top: var(--padding-xl);
+    padding-bottom: 81px;
+    box-sizing: border-box;
+  }
+  .result-page-2 {
+    gap: var(--gap-42xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .doing-well-but,
+  .on-balance {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-div {
+    gap: 17px;
+  }
+  .next2 {
+    font-size: var(--font-size-lgi);
+  }
+  .result-page-2 {
+    gap: var(--gap-11xl);
+  }
+}
